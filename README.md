@@ -10,7 +10,7 @@ The augmentation is done by adding noise: `add_noise(...)` function.
 
 Noise variation (strength of the augmentation) could be threaded as a hyperparameter and can be optimized by the tuner.
 
-In the standard tuner configuration, the dataset is provided as a parameter to the `tuner.search(img_train, img_labe, ...)` method.
+In the standard tuner configuration, the dataset is provided as a parameter to the `tuner.search(img_train, img_label, ...)` method.
 In this way you are not able to generate dataset per each training episode. It is impossible to pass hyperparameters to the dataset.
 
 ## The Solution
