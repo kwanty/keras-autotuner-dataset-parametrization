@@ -20,7 +20,7 @@ In the following example, the `MyHyperband` class derived from the `kt.tuners.Hy
 ```python
 class MyHyperband(kt.tuners.Hyperband):
     """
-    Override _build_and_fit_model() from keras_tuner.Tuner. It is called in MultiExecutionTunerr
+    Override _build_and_fit_model() from keras_tuner.Tuner. It is called in MultiExecutionTuner
     Class hierarchy: MyRandomSearch <- RandomSearch <- MultiExecutionTuner <- Tuner
     """
     def _build_and_fit_model(self, trial, fit_args, fit_kwargs):
