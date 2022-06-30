@@ -1,4 +1,4 @@
-# keras-autotuner-dataset-parametrization
+# Keras Autotuner for Dataset parametrization
 An example of dataset parameter as an autotuner hyperparameter.
 
 The [Keras Tuner](https://www.tensorflow.org/tutorials/keras/keras_tuner) cannot handle parametrization of dataset. 
